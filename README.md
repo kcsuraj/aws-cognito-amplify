@@ -1,10 +1,10 @@
-## Aws Cognito Amplify
+### Aws Cognito Amplify
 
 The Amplify Framework uses Amazon Cognito as the main authentication provider. Amazon Cognito is a robust user directory service that handles user registration, authentication, account recovery & other operations.
 
 We are using aws amplify package provided by Amazon for developing authentication workflow in the frontend. It is a JavaScript library for frontend and mobile developers building cloud-enabled applications.
 
-## Development
+### Development
 
 **Enivronment variables**
 
@@ -23,3 +23,7 @@ REACT_APP_AWS_USER_POOLS_WEB_CLIENT_ID=
 | `dev`      | Runs app in development mode                            |
 | `build`    | Builds the app for production to the `build` folder.    |
 | `test`     | Launches the test runner in the interactive watch mode. |
+
+**Important Links**
+
+- [AWS Amplif UI Components](https://docs.amplify.aws/ui/auth/authenticator/q/framework/react)
