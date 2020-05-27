@@ -50,3 +50,9 @@ code {
     transform: rotate(360deg);
   }
 }
+
+/* Amplify UI  */
+.amplify-slot {
+  margin-top: 60px;
+  text-align: center;
+}
