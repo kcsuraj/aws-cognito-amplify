@@ -1,3 +1,4 @@
+// Application's Entry point; wraps protected component with AmplifyAutheticator
 import React, { useState, useEffect } from "react";
 import Dashboard from "./screens/Dashboard";
 
@@ -15,6 +16,7 @@ function App() {
   const [signedIn, setSignedIn] = useState(false);
 
   useEffect(() => {
+    // Listen to auth state change and store authentication status flag
     return onAuthUIStateChange((authState) => {
       if (authState === AuthState.SignedIn) {
         setSignedIn(true);

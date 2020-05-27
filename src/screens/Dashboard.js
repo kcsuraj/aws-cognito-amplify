@@ -1,3 +1,4 @@
+// Dashboard with user info and app's protected resources; Accessible is user authenticated
 import React, { useState, useEffect } from "react";
 import logo from "../logo.svg";
 import { AmplifySignOut } from "@aws-amplify/ui-react";
@@ -7,6 +8,12 @@ function Dashboard() {
   const [user, setUser] = useState(null);
 
   useEffect(() => {
+    /**
+     * Fetch user session from storage and store in state
+     *
+     * @returns {void}
+     * @memberof ConfigureDrugReport
+     */
     async function getUserSession() {
       try {
         const userSesion = await Auth.currentAuthenticatedUser();
@@ -18,7 +25,7 @@ function Dashboard() {
         );
         setUser(userSesion);
       } catch (error) {
-        // Handle error, mostly fail in user authentication
+        // Handle error, mostly fails in user authentication
         console.log(error);
       }
     }

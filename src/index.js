@@ -6,6 +6,7 @@ import * as serviceWorker from "./serviceWorker";
 import awsExports from "./config/awsExports";
 import Amplify from "aws-amplify";
 
+// Configure AWS configurations
 Amplify.configure(awsExports);
 
 ReactDOM.render(
