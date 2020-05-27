@@ -6,6 +6,7 @@ import {
   AmplifySignIn,
   AmplifySignUp,
   AmplifyForgotPassword,
+  AmplifyConfirmSignUp,
 } from "@aws-amplify/ui-react";
 import { onAuthUIStateChange, AuthState } from "@aws-amplify/ui-components";
 
@@ -64,6 +65,9 @@ function App() {
             },
           ]}
         />
+      </div>
+      <div className="amplify-slot" slot="confirm-sign-up">
+        <AmplifyConfirmSignUp slot="confirm-sign-up" />
       </div>
       {signedIn && <Dashboard />}
     </AmplifyAuthenticator>
