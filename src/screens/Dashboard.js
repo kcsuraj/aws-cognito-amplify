@@ -12,7 +12,7 @@ function Dashboard() {
      * Fetch user session from storage and store in state
      *
      * @returns {void}
-     * @memberof ConfigureDrugReport
+     * @memberof Dashboard
      */
     async function getUserSession() {
       try {
