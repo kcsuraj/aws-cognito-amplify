@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Dashboard from "./screens/Dashboard";
 
 import {
@@ -7,13 +7,31 @@ import {
   AmplifySignUp,
   AmplifyForgotPassword,
 } from "@aws-amplify/ui-react";
+import { onAuthUIStateChange, AuthState } from "@aws-amplify/ui-components";
 
 function App() {
+  // Status to check user authentication flag
+  const [signedIn, setSignedIn] = useState(false);
+
+  useEffect(() => {
+    return onAuthUIStateChange((authState) => {
+      if (authState === AuthState.SignedIn) {
+        setSignedIn(true);
+      } else if (authState === AuthState.SignedOut) {
+        setSignedIn(false);
+      }
+    });
+  }, []);
+
   return (
-    <AmplifyAuthenticator usernameAlias="email">
+    // initialAuthState accepts AuthState.SignIn or AuthState.SignUp and defaults to AuthState.SignIn
+    <AmplifyAuthenticator
+      usernameAlias="email"
+      initialAuthState={AuthState.SignIn}
+    >
       <div className="amplify-slot" slot="sign-in">
         <AmplifySignIn
-          headerText="Sign in to app"
+          headerText="Sign in to awesome app"
           usernameAlias="email"
           slot="sign-in"
         >
@@ -47,7 +65,7 @@ function App() {
           ]}
         />
       </div>
-      <Dashboard />
+      {signedIn && <Dashboard />}
     </AmplifyAuthenticator>
   );
 }

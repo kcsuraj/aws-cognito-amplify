@@ -5,7 +5,6 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import awsExports from "./config/awsExports";
 import Amplify from "aws-amplify";
-console.log(awsExports);
 
 Amplify.configure(awsExports);
 

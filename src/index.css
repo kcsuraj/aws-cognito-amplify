@@ -7,6 +7,19 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* Amplify UI  */
+/* Customize Amplify UI theme */
+:root {
+  --amplify-primary-color: #47a899;
+  --amplify-primary-tint: #65a89e;
+  --amplify-primary-shade: #2c7469;
+}
+/* Positon amplify UI components to center */
+.amplify-slot {
+  margin-top: 60px;
+  text-align: center;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -17,7 +30,7 @@ code {
 }
 
 .Dashboard-logo {
-  height: 40vmin;
+  height: 20vmin;
   pointer-events: none;
 }
 
@@ -28,18 +41,26 @@ code {
 }
 
 .Dashboard-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #333;
+}
+.Dashboard-header h4 {
+  margin-bottom: 0;
+}
+.Dashboard-header p {
+  font-size: 16px;
 }
 
 .Dashboard-link {
-  color: #61dafb;
+  color: #47a899;
+  font-size: 16px;
+  margin-bottom: 12px;
+  text-decoration: none;
 }
 
 @keyframes Dashboard-logo-spin {
@@ -49,10 +70,4 @@ code {
   to {
     transform: rotate(360deg);
   }
-}
-
-/* Amplify UI  */
-.amplify-slot {
-  margin-top: 60px;
-  text-align: center;
 }
