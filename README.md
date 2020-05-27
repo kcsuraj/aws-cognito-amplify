@@ -4,6 +4,8 @@ The Amplify Framework uses Amazon Cognito as the main authentication provider. A
 
 We are using aws amplify package provided by Amazon for developing authentication workflow in the frontend. It is a JavaScript library for frontend and mobile developers building cloud-enabled applications.
 
+**Note**: We are using [@aws-amplify/ui-react](https://www.npmjs.com/package/@aws-amplify/ui-react). There is a a different library [aws-amplify-react](https://www.npmjs.com/package/aws-amplify-react) which is considered legacy by AWS.
+
 ### Development
 
 **Enivronment variables**
