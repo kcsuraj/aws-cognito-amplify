@@ -2,6 +2,11 @@
   "name": "aws-cognito-amplify",
   "version": "0.1.0",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kcsuraj/aws-cognito-amplify.git"
+  },
+  "author": "Suraj kc",
   "dependencies": {
     "@aws-amplify/ui-react": "^0.2.7",
     "@testing-library/jest-dom": "^4.2.4",
