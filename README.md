@@ -24,6 +24,8 @@ REACT_APP_AWS_USER_POOLS_WEB_CLIENT_ID=
 | `build`    | Builds the app for production to the `build` folder.    |
 | `test`     | Launches the test runner in the interactive watch mode. |
 
-**Important Links**
+### Important Links
 
-- [AWS Amplif UI Components](https://docs.amplify.aws/ui/auth/authenticator/q/framework/react)
+- [AWS Amplify Getting Started](https://docs.amplify.aws/lib/auth/getting-started/q/platform/js)
+- [AWS Amplif UI Components Library](https://docs.amplify.aws/ui/auth/authenticator/q/framework/react)
+- [Starter project for ReactJS + Amazon Cognito + Amazon Amplify Framework with AWS CDK support](https://github.com/vbudilov/reactjs-cognito-starter)
