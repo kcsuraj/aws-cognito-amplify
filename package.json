@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Suraj kc",
+  "homepage": "/aws-cognito-amplify",
   "dependencies": {
     "@aws-amplify/ui-react": "^0.2.7",
     "@testing-library/jest-dom": "^4.2.4",
