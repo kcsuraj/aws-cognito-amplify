@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/aws-cognito-amplify/precache-manifest.5329ffc901eb2b1c48cc8a78e6a3cde4.js"
+  "/aws-cognito-amplify/precache-manifest.0d27b0a44186742adb1be5f89bf83683.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bd08a70b6b7c0a008257d875022dea6",
+    "revision": "9154d11eb8dc1e07e7c8661d3749d0fc",
     "url": "/aws-cognito-amplify/index.html"
   },
   {
