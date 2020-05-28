@@ -25,7 +25,7 @@ function Dashboard() {
         );
         setUser(userSesion);
       } catch (error) {
-        // Handle error, mostly fails in user authentication
+        // Handle error, mostly fails in user auth
         console.log(error);
       }
     }
