@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "660c21e566d3300cd9ea1ad06587dd69",
+    "revision": "ca6f97a5f5a90aff08b39e25914fba43",
     "url": "/aws-cognito-amplify/index.html"
   },
   {
-    "revision": "70cd2a3ed9d4fabbe926",
+    "revision": "04cf4f78fd02778f8e2a",
     "url": "/aws-cognito-amplify/static/css/main.2ae118ae.chunk.css"
   },
   {
@@ -76,12 +76,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aws-cognito-amplify/static/js/25.b2efa53d.chunk.js"
   },
   {
-    "revision": "d27fdbd4001fa8c86ba9",
-    "url": "/aws-cognito-amplify/static/js/3.1cb0061b.chunk.js"
+    "revision": "625c968c2d444afcdc54",
+    "url": "/aws-cognito-amplify/static/js/3.56c0f95a.chunk.js"
   },
   {
     "revision": "055fc96228ebd7596dd144de5fa0736f",
-    "url": "/aws-cognito-amplify/static/js/3.1cb0061b.chunk.js.LICENSE"
+    "url": "/aws-cognito-amplify/static/js/3.56c0f95a.chunk.js.LICENSE"
   },
   {
     "revision": "1c871423e31b3161fd76",
@@ -112,8 +112,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/aws-cognito-amplify/static/js/9.61f8b49b.chunk.js"
   },
   {
-    "revision": "70cd2a3ed9d4fabbe926",
-    "url": "/aws-cognito-amplify/static/js/main.0e01511f.chunk.js"
+    "revision": "04cf4f78fd02778f8e2a",
+    "url": "/aws-cognito-amplify/static/js/main.dff80de8.chunk.js"
   },
   {
     "revision": "f3851cc4cf8b62ca128d",

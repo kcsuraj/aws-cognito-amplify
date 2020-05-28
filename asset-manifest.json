@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/aws-cognito-amplify/static/css/main.2ae118ae.chunk.css",
-    "main.js": "/aws-cognito-amplify/static/js/main.0e01511f.chunk.js",
-    "main.js.map": "/aws-cognito-amplify/static/js/main.0e01511f.chunk.js.map",
+    "main.js": "/aws-cognito-amplify/static/js/main.dff80de8.chunk.js",
+    "main.js.map": "/aws-cognito-amplify/static/js/main.dff80de8.chunk.js.map",
     "polyfills-css-shim.js": "/aws-cognito-amplify/static/js/polyfills-css-shim.e149b3ee.chunk.js",
     "polyfills-css-shim.js.map": "/aws-cognito-amplify/static/js/polyfills-css-shim.e149b3ee.chunk.js.map",
     "runtime-main.js": "/aws-cognito-amplify/static/js/runtime-main.fb52ba90.js",
     "runtime-main.js.map": "/aws-cognito-amplify/static/js/runtime-main.fb52ba90.js.map",
-    "static/js/3.1cb0061b.chunk.js": "/aws-cognito-amplify/static/js/3.1cb0061b.chunk.js",
-    "static/js/3.1cb0061b.chunk.js.map": "/aws-cognito-amplify/static/js/3.1cb0061b.chunk.js.map",
+    "static/js/3.56c0f95a.chunk.js": "/aws-cognito-amplify/static/js/3.56c0f95a.chunk.js",
+    "static/js/3.56c0f95a.chunk.js.map": "/aws-cognito-amplify/static/js/3.56c0f95a.chunk.js.map",
     "static/js/4.d7f14f97.chunk.js": "/aws-cognito-amplify/static/js/4.d7f14f97.chunk.js",
     "static/js/4.d7f14f97.chunk.js.map": "/aws-cognito-amplify/static/js/4.d7f14f97.chunk.js.map",
     "static/js/5.13700ad0.chunk.js": "/aws-cognito-amplify/static/js/5.13700ad0.chunk.js",
@@ -54,18 +54,18 @@
     "static/js/25.b2efa53d.chunk.js": "/aws-cognito-amplify/static/js/25.b2efa53d.chunk.js",
     "static/js/25.b2efa53d.chunk.js.map": "/aws-cognito-amplify/static/js/25.b2efa53d.chunk.js.map",
     "index.html": "/aws-cognito-amplify/index.html",
-    "precache-manifest.e1d1d148fcd64d58d552313376c2c15b.js": "/aws-cognito-amplify/precache-manifest.e1d1d148fcd64d58d552313376c2c15b.js",
+    "precache-manifest.80860085947032ba2416f02d7305bec9.js": "/aws-cognito-amplify/precache-manifest.80860085947032ba2416f02d7305bec9.js",
     "service-worker.js": "/aws-cognito-amplify/service-worker.js",
     "static/css/main.2ae118ae.chunk.css.map": "/aws-cognito-amplify/static/css/main.2ae118ae.chunk.css.map",
     "static/js/24.d71642ef.chunk.js.LICENSE": "/aws-cognito-amplify/static/js/24.d71642ef.chunk.js.LICENSE",
-    "static/js/3.1cb0061b.chunk.js.LICENSE": "/aws-cognito-amplify/static/js/3.1cb0061b.chunk.js.LICENSE",
+    "static/js/3.56c0f95a.chunk.js.LICENSE": "/aws-cognito-amplify/static/js/3.56c0f95a.chunk.js.LICENSE",
     "static/js/6.ea46e110.chunk.js.LICENSE": "/aws-cognito-amplify/static/js/6.ea46e110.chunk.js.LICENSE",
     "static/media/logo.svg": "/aws-cognito-amplify/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.fb52ba90.js",
-    "static/js/3.1cb0061b.chunk.js",
+    "static/js/3.56c0f95a.chunk.js",
     "static/css/main.2ae118ae.chunk.css",
-    "static/js/main.0e01511f.chunk.js"
+    "static/js/main.dff80de8.chunk.js"
   ]
 }
