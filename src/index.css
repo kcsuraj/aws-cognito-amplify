@@ -14,11 +14,6 @@ body {
   --amplify-primary-tint: #65a89e;
   --amplify-primary-shade: #2c7469;
 }
-/* Positon amplify UI components to center */
-.amplify-slot {
-  margin-top: 60px;
-  text-align: center;
-}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

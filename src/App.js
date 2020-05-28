@@ -31,46 +31,40 @@ function App() {
     <AmplifyAuthenticator
       usernameAlias="email"
       initialAuthState={AuthState.SignIn}
+      style={
+        signedIn
+          ? {}
+          : { display: "flex", justifyContent: "center", marginTop: 60 }
+      }
     >
-      <div className="amplify-slot" slot="sign-in">
-        <AmplifySignIn
-          headerText="Sign in to awesome app"
-          usernameAlias="email"
-          slot="sign-in"
-        >
-          <div slot="amplify-form-section-header"></div>
-          {/* Remove Create Acount  option */}
-          {/* <div slot="secondary-footer-content"></div> */}
-        </AmplifySignIn>
-      </div>
+      <AmplifySignIn
+        headerText="Sign in to awesome app"
+        usernameAlias="email"
+        slot="sign-in"
+      >
+        <div slot="amplify-form-section-header"></div>
+        {/* Remove Create Acount  option */}
+        {/* <div slot="secondary-footer-content"></div> */}
+      </AmplifySignIn>
 
-      <div className="amplify-slot" slot="forgot-password">
-        <AmplifyForgotPassword slot="forgot-password" />
-      </div>
-
-      <div className="amplify-slot" slot="sign-up">
-        <AmplifySignUp
-          slot="sign-up"
-          usernameAlias="email"
-          formFields={[
-            {
-              label: "Email",
-              placeholder: "Email",
-              required: true,
-              type: "email",
-            },
-            {
-              label: "Password",
-              placeholder: "Password",
-              required: true,
-              type: "password",
-            },
-          ]}
-        />
-      </div>
-      <div className="amplify-slot" slot="confirm-sign-up">
-        <AmplifyConfirmSignUp slot="confirm-sign-up" />
-      </div>
+      <AmplifySignUp
+        slot="sign-up"
+        usernameAlias="email"
+        formFields={[
+          {
+            label: "Email",
+            placeholder: "Email",
+            required: true,
+            type: "email",
+          },
+          {
+            label: "Password",
+            placeholder: "Password",
+            required: true,
+            type: "password",
+          },
+        ]}
+      />
       {signedIn && <Dashboard />}
     </AmplifyAuthenticator>
   );
