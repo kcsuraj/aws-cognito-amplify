@@ -6,8 +6,6 @@ import {
   AmplifyAuthenticator,
   AmplifySignIn,
   AmplifySignUp,
-  AmplifyForgotPassword,
-  AmplifyConfirmSignUp,
 } from "@aws-amplify/ui-react";
 import { onAuthUIStateChange, AuthState } from "@aws-amplify/ui-components";
 
@@ -38,7 +36,7 @@ function App() {
       }
     >
       <AmplifySignIn
-        headerText="Sign in to awesome app"
+        headerText="Sign in to your app"
         usernameAlias="email"
         slot="sign-in"
       >
