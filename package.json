@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/kcsuraj/aws-cognito-amplify.git"
   },
+  "homepage": "https://kcsuraj.github.io/aws-cognito-amplify/",
   "author": "Suraj kc",
   "dependencies": {
     "@aws-amplify/ui-react": "^0.2.7",
@@ -21,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,5 +40,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }
