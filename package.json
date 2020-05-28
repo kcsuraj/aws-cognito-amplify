@@ -2,21 +2,16 @@
   "name": "aws-cognito-amplify",
   "version": "0.1.0",
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kcsuraj/aws-cognito-amplify.git"
-  },
-  "homepage": "https://kcsuraj.github.io/aws-cognito-amplify/",
   "author": "Suraj kc",
   "dependencies": {
     "@aws-amplify/ui-react": "^0.2.7",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "aws-amplify": "^3.0.13",
+    "aws-amplify": "^3.0.12",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
