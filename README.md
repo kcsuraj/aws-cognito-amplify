@@ -8,6 +8,10 @@ We are using aws amplify package provided by Amazon for developing authenticatio
 
 There is a a different library [aws-amplify-react](https://www.npmjs.com/package/aws-amplify-react) which is considered legacy by AWS.
 
+### Demo
+
+[https://kcsuraj.github.io/aws-cognito-amplify](https://kcsuraj.github.io/aws-cognito-amplify)
+
 ### Development
 
 **Enivronment variables**
