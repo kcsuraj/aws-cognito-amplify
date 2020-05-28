@@ -1,0 +1,2 @@
+(this["webpackJsonpaws-cognito-amplify"]=this["webpackJsonpaws-cognito-amplify"]||[]).push([[13],{155:function(t,n,e){"use strict";e.r(n),e.d(n,"amplify_container",(function(){return c}));var i=e(32),c=function(){function t(t){Object(i.g)(this,t)}return t.prototype.render=function(){return Object(i.f)(i.a,null,Object(i.f)("slot",null))},t}();c.style=":host{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;-ms-flex-pack:center;justify-content:center;height:100vh}"}}]);
+//# sourceMappingURL=13.1cd2887e.chunk.js.map
